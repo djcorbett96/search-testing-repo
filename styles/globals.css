@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SearchBar-container > div {
+  border-radius: 2px;
+}
+
+.SearchBar-container > div > div:first-child {
+  height: 100%;
+}
